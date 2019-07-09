@@ -4,7 +4,6 @@ Makefile and Android.mk necessary to compile sqlite3 for Android.
 
 Requirements
 ------------
-* aria2c (or wget). Replace URL_DOWNLOADER variable in Makefile for other downloader.
 * Android NDK
 
 Build
@@ -19,12 +18,12 @@ By default, it will build binaries for armeabi-v7. To build for other arch, repl
 
 Available ABIS:
 
-armeabi (Deprecated in Android NDK r16. Will be removed in Android NDK r17)
+* armeabi-v7a
+* arm64-v8a
+* x86
+* x86_64
 
-armeabi-v7a
+License
+-------
+[SQLite Copyright](https://www.sqlite.org/copyright.html)
 
-arm64-v8a
-
-x86
-
-x86_64
