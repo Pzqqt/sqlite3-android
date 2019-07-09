@@ -1,8 +1,8 @@
 # /home/norbert/sqlite3-android/Makefile
 #
 .DEFAULT_GOAL		:= build
-# TARGET ABI := armeabi armeabi-v7a arm64-v8a x86 x86_64 mips mips64 (or all)
-TARGET_ABI		:= armeabi
+# TARGET ABI := armeabi-v7a arm64-v8a x86 x86_64 mips mips64 (or all)
+TARGET_ABI		:= armeabi-v7a
 CHECK_NDKPATH		:= $(shell which ndk-build >/dev/null 2>&1 ; echo $$?)
 
 check-ndk-path:
